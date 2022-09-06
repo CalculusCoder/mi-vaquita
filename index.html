@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Vaquita Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="home"></div>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <div class="nav-left">
+            <img class="logo" src="images/logo-modified.png" alt="/">
+            <a href="/" id="navbar__logo">La Hacienda Products</a>
+            </div>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="navbar__menu">
+                <li class="navbar__item">
+                    <a id="homee" href="#home" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a id="productos" href="#products" class="navbar__links">Products</a>
+                </li>
+                <li class="navbar__item">
+                    <a id="storyy" href="#about" class="navbar__links about-nav">About Us</a>
+                </li>
+                <li class="navbar__btn">
+                    <a id="contactt" href="#contact" class="button">Contact</a>
+                </li>
+                <div class="flags">
+                    <li class="navbar__btn">
+                        <a href="#eng" data-reload><img class="usa" src="images/united-states.png" alt="/"></a>
+                    </li>
+                    <li class="navbar__btn">
+                        <a href="#es" data-reload><img class="spain" src="images/spain.png" alt="/"></a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Home -->
+    <section class="header">
+        <div class="hero">
+            <h1 id="title">Mi Vaquita Cheeses</h1>
+            <img class="main-img" src="images/logo-modified.png" alt="/">
+            <p id="description">Authentic Latin American Cheeses</p>
+        </div>
+    </section>
+    <div id="products"></div>
+
+
+
+    <!-- Products -->
+    <section class="products">
+        <div>
+            <h1 id="product">Product Catalog</h1>
+            <p id="productP">Explore some of our most popular Latin American dairy products</p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <h3 id="freir">Frying Cheese</h3>
+                <img src="images/freir.jpg" alt="/">
+                <p id="freirP">Authentic and Delicious Frying Cheese. For best taste, grill or deep fry.</p>
+            </div>
+            <div class="column">
+                <h3 id="blanco">Blanco Cheese</h3>
+                <img src="images/blanco.jpg" alt="/">
+                <p id="blancoP">Soft and delicious blanco cheese. Goes great with almost any meal</p>
+            </div>
+            <div class="column">
+                <h3 id="requeson">Requeson Cheese</h3>
+                <img src="images/requeson.jpg" alt="/">
+                <p id="requesonP">Creamy and delicious, goes great with several mexican dishes.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <h3 id="cream">Sour Cream</h3>
+                <img src="images/sour.jpg" alt="/">
+                <p id="creamP">Smooth and Creamy central american sour cream, imported from central america.</p>
+            </div>
+            <div class="column">
+                <h3 id="smoked">Smoked Cheese</h3>
+                <img src="images/smoked.jpg" alt="/">
+                <p id="smokedP">Delicious smoked cheese, goes great with several dishes.</p>
+            </div>
+            <div class="column">
+                <h3 id="blando">Duro Blando Cheese</h3>
+                <img src="images/seco.jpg" alt="/">
+                <p id="blandoP">Tasty imported dry hard cheese. High in salt.</p>
+            </div>
+        </div>
+        <div id="about"></div>
+    </section>
+
+
+
+    <!-- About Us -->
+    <section class="about">   
+        <div class="body-about">
+            <h1 id="story">Our Story</h1>
+            <img class="about-image" src="images/about.JPG" alt="/">
+            <p id="storyP">
+                La Hacienda Products is a family owned dairy business founded and established in 2008. We specialize
+                in the distribution of the best Latin American dairy products in Miami, Florida. When our founders first
+                opened shop, they had one thing in mind: deliver the best Latin American products with the best 
+                customer service.   
+                We offer a wide variety of cheeses while providing exceptional customer 
+            service to our clients. We work with clients throughout the 48 states in the continental United States. 
+                 Frying cheese, cuajada, blanco cheese, requeson cheese, and smoked cheese are a few of the 
+                several delicious Latin American cheeses we carry. Aside from our popular cheeses, we sell 
+                additional imported Central American products such as: beans, sodas, and annatto. 
+            </p>
+        </div>
+    </section>   
+
+
+
+    <!-- Contact -->
+    <div id="contact"></div>
+    <section class="contact">
+        <h1 id="contact1">Contact Us</h1>
+        <div>
+            <a href="tel: 786-546-2628"><button id="call1" class="call">Call Us</button></a>
+        </div>
+        <div>
+            <a href="mailto:mivaquita31@gmail.com"><button class="email">Email</button></a>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14368.791165288776!2d-80.2389837!3d25.797048!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x578a76be92db5d56!2sLa%20Hacienda%20Products!5e0!3m2!1sen!2sus!4v1662394496744!5m2!1sen!2sus" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    </body>
